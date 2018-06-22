@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/beatTheDealer21.iml" filepath="$PROJECT_DIR$/.idea/modules/beatTheDealer21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/beatTheDealer21_main.iml" filepath="$PROJECT_DIR$/.idea/modules/beatTheDealer21_main.iml" group="beatTheDealer21" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/beatTheDealer21_test.iml" filepath="$PROJECT_DIR$/.idea/modules/beatTheDealer21_test.iml" group="beatTheDealer21" />
+    </modules>
+  </component>
+</project>
