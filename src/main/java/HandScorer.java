@@ -2,11 +2,11 @@ public class HandScorer {
 
     private int handScore;
 
-    public int scoreHand(Player player) {
+    public int scoreHand(Hand cards) {
         int cardScore;
-        int numberOfCards = player.getHand().size();
+        int numberOfCards = cards.size();
         for (int c = 0; c < numberOfCards; c++) {
-            int cardType = player.getHand().get(c).getType();
+            int cardType = cards.get(c).getType();
             cardScore = scoreCard(cardType);
             handScore = handScore + cardScore;
         }

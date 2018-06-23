@@ -7,9 +7,8 @@ public class Main {
         Player dealer = new Player();
         sam.pickCard(deck); sam.pickCard(deck);
         dealer.pickCard(deck); dealer.pickCard(deck);
-        HandScorer scorer = new HandScorer();
-        System.out.println(scorer.scoreHand(sam));
-        System.out.println(scorer.scoreHand(dealer));
+        System.out.println(sam.scoreHand());
+        System.out.println(dealer.scoreHand());
     }
 }
 

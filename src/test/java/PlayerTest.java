@@ -13,5 +13,14 @@ public class PlayerTest {
         dealer.pickCard(deck);
         assertEquals(1, dealer.getHand().size());
     }
+    @Test
+    public void PlayerPickCardRemovesCardFromDeck(){
+        Deck deck = new Deck();
+        deck.shuffleDeck();
+        Hand hand = new Hand();
+        Player dealer = new Player(hand);
+        dealer.pickCard(deck);
+        assertEquals(deck.getCards().size(), 51);
+    }
 
 }
